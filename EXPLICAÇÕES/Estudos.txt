@@ -1,0 +1,86 @@
+width=:para alterar o tamanho da imagem
+alt="": para pessoas cegas escutarem o q tem na imagem 
+
+
+TAGS:
+<b> </b> ou <strong> </strong>: para deixar o texto em negrito e o <strong é para dar mais enfâse na palavra
+<hr: para colocar uma linha de divisão
+<br: para quebrar a linha colocando a frase embaixo, quanto mais tags <br colocar, mais linha ele irá quebrar
+<i: para deitar a letra
+<U: vai deixar a palavra sublinhada
+<small: para deixar a palavra pequena 
+<del ou <strike (porém não é mais tão usada): para riscar uma palavra
+<sup: para escrever números ou nome elevados, para ficar em cima
+<sub: para escrever o número ou nome para ficar embaixo
+<mark: para deixar o texto marcado (marca texto)
+<abbr: abreviação 
+<address (endereço fixo, e-mail, telefone, midia social: endereço
+<cite: como se fosse uma obra (literaria, filme, livro,etc
+<q: uma citação curta que uma pessoa falou
+<blockquote: dar destaque em um trecho da frase
+<bdo: para inverter o texto (ficar da esquerda para a direita)
+<!--: para fazer um comentário no código 
+<a href=""></a>: para colocar link
+
+Caso queira que o site abra em outra página é assim:
+<a href="https://google.com target="_blank">Ir para o site</a>
+É NECESSÁRIO COLOCAR O TARGET
+<img src""> (não tem fechamento): para colocar imagem
+<table: criar tabela
+<tr: você quer fazer uma linha
+<th: titulo de uma coluna
+<td: para colocar uma informação
+
+Para fazer uma tabela tem que ser ex:
+<table width="100%" border="1" style="text-aling: center;">
+
+Para fazer listas
+<ol: (lista ordenada,ex: 1,2,3...)
+<ul = unordered list (lista desordenada)
+<li = list item (item da lista)
+
+<iframe:viabiliza a inclusão de outro documento HTML dentro do primeiro
+
+TAGS DE FORMULÁRIO:
+<form: todo formulário começa com essa tag
+<input (não tem fechamento (>): algo que vai colocar um dado de entrada
+
+
+CSS
+
+Color: cor do texto
+Background: fundo da tela   background-image: colocar imagem no fundo
+Background-size: tamanho da imagem   background-repeat: para repetir ou não a imagem
+Border: para enfeitar (colocar botões,etc)
+Margin: Serve para dar um espaço 
+padding: Serve para dar um espaço só que dentro da borda
+Width: Largura
+Height: Altura
+Propriedade text: Tem vários tipos (text-align, text-decoration, text-transform)
+Propriedade font: Tem vários tipos (font-family, font-size, font-style, font-weigth 
+Propriedade display: Específica se ou como um elemento vai ser exibido (display-inline, display-block, display-inline-block)
+Max-width: Estabelece a largura máxima de um elemento
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
