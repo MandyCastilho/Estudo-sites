@@ -63,6 +63,8 @@ Max-width: Estabelece a largura máxima de um elemento
 Position: Que diz como o elemento vai se posicionar na página. Existe 5 tipos (Position Static, Position Relative, Position Fixed, Position Absolute, Position Sticky)
 Overflow: Determina como o conteúdo que ultrapassou a sua div e que não é mostrado ao usuário deve ser exibido
 Float: Fazer com que um elemento flutue 
+Opacity: A propriedade opacity define o nível de opacidade de um elemento
+Dropdown: São botões com alternância de visibilidade de listas de links e outras coisas
 
 
 
