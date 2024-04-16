@@ -67,6 +67,12 @@ Opacity: A propriedade opacity define o nível de opacidade de um elemento
 Dropdown: São botões com alternância de visibilidade de listas de links e outras coisas
 
 
+Especificidade CSS: É um tipo de “poder de escolha”, que ajuda os navegadores a decidir qual valor da propriedade CSS terá precedência e será aplicado aos elementos, exemplo de ordem: #id, tag.classe, .classe, tag
+Regra Important (!):É utilizada na declaração do estilo substitui qualquer outra declaração feita no CSS, onde quer que esteja na lista de declaração.
+Efeito Gradiente: Onde faz uma transição de uma cor para outra no mesmo elemento
+Propriedades Text Shadow:É a propriedade responsável por adicionar sombra a um texto por meio do CSS
+Box Shadow:É utilizada para inserir uma camada de sombra ao redor do elemento HTML
+Media Queries: Nada mais é do que uma estrutura do CSS que permite aplicar estilizações especificas para uma página web de acordo com certas condições, fazendo assim com esta página possa se adequar ao layout de tela em diferentes tamanhos e tipos de mídia
 
 
 
