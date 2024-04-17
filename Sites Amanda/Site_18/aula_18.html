@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="Esse é o meu décimo oitavo site">
+        <meta name="keywords" content="programação,html,css,javascript">
+        <meta name="author" content="Amanda Castilho">
+        <title>Meu décimo oitavo site</title>
+
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            .flex-pai{
+                height: 600px;
+                background: rgb(117, 24, 24);
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-around;
+                align-items: center;
+                align-content: center;
+            }
+        @media screen and (max-width:600px){
+            .flex-pai{
+                flex-direction: column;
+            }
+            }
+            .flex-pai div{
+                flex-grow: 1;
+                background: whitesmoke;
+                border: 1px solid black;
+                margin: 5px;
+                padding: 30px;
+                text-align: center;
+            }
+            h1{
+                text-align: center;
+                text-shadow: 2px 2px hotpink;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <h1>Flexbox</h1>
+
+        <div class="flex-pai">
+            <div style="flex:15%">1</div>
+            <div style="flex:75%">2</div>
+            <div style="flex:10%">3</div>
+            <div style="flex:50%">4</div>
+            <div style="flex:50%">5</div>
+            <div style="flex:25%">6</div>
+            <div style="flex:25%">7</div>
+            <div style="flex:50%">8</div>
+        </div>
+
+    </body>
+
+</html>

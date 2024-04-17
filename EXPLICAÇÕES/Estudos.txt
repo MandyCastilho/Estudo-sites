@@ -73,6 +73,7 @@ Efeito Gradiente: Onde faz uma transição de uma cor para outra no mesmo elemen
 Propriedades Text Shadow:É a propriedade responsável por adicionar sombra a um texto por meio do CSS
 Box Shadow:É utilizada para inserir uma camada de sombra ao redor do elemento HTML
 Media Queries: Nada mais é do que uma estrutura do CSS que permite aplicar estilizações especificas para uma página web de acordo com certas condições, fazendo assim com esta página possa se adequar ao layout de tela em diferentes tamanhos e tipos de mídia
+Flexbox: Visa organizar os elementos de uma página HTML dentro de seus containers de forma dinâmica
 
 
 
