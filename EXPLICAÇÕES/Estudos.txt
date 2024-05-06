@@ -75,6 +75,18 @@ Box Shadow:É utilizada para inserir uma camada de sombra ao redor do elemento H
 Media Queries: Nada mais é do que uma estrutura do CSS que permite aplicar estilizações especificas para uma página web de acordo com certas condições, fazendo assim com esta página possa se adequar ao layout de tela em diferentes tamanhos e tipos de mídia
 Flexbox: Visa organizar os elementos de uma página HTML dentro de seus containers de forma dinâmica
 
+JAVASCRIPT
+
+Conhecendo as variáveis: As variáveis ​​podem ser usadas para armazenar dados em um programa, como strings, números, objetos JSON ou valores booleanos.
+
+VAR: 
+LET:
+CONST:
+
+
+
+
+
 
 
 
