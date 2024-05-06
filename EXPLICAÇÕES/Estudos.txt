@@ -79,9 +79,53 @@ JAVASCRIPT
 
 Conhecendo as variáveis: As variáveis ​​podem ser usadas para armazenar dados em um programa, como strings, números, objetos JSON ou valores booleanos.
 
-VAR: 
-LET:
-CONST:
+VAR: O var pode ser declarado sem ser inicializado e está disponível fora do seu escopo
+LET:  O let pode ser declarado sem ser inicializado e não está disponível fora do seu escopo
+CONST:O const não pode ser declarado sem ser inicializado e não está disponível fora do seu escopo
+
+OPERADORES:
+
+1)Operadores Aritméticos (matemáticos): Os operadores aritméticos são usados para realizar operações matemáticas básicas, como adição, subtração, multiplicação e divisão. Além disso, temos o operador de resto (%), exponenciação (**) e incremento/decremento (++/--), que podem ser úteis em várias situações
+
+2)Operadores de Atribuição:  Os operadores de atribuição são usados para atribuir valores a variáveis. O operador de atribuição básico é o "=", mas também existem operadores combinados, como "+=", "-=", "*=", "/=", entre outros, que permitem atribuir e operar ao mesmo tempo
+
+3)Operadores de Sequência: Os operadores de sequência são utilizados para executar várias expressões em sequência, onde cada expressão é avaliada e o resultado da última expressão é retornado. Isso é feito utilizando o operador vírgula (,).
+
+Usos do Operador de Sequência
+Inicialização múltipla: Inicializar múltiplas variáveis ou executar várias operações de inicialização em uma única linha.
+Executar múltiplas operações: Quando você deseja executar várias operações que não dependem uma da outra em um contexto que exige uma única expressão.
+Manipulação de efeitos colaterais: Em casos onde múltiplas operações que causam efeitos colaterais precisam ser realizadas sequencialmente.
+
+4)Operadores de Comparação: O JavaScript oferece operadores que verificam igualdade de valor (`==`), igualdade estrita de valor e tipo (`===`), desigualdade de valor (`! =`), desigualdade estrita de valor e tipo (`! ==`), e comparações tradicionais como maior que, menor que, maior ou igual a, e menor ou igual a
+
+5)Operadores Condicional (ternário: É o único operador JavaScript que possui três operandos. Este operador é frequentemente usado como um atalho para a instrução if. Fonte. O JavaScript possui um único operador ternário, que é o operador condicional
+
+6)Operadores Lógico: Os operadores lógicos são elementos fundamentais da linguagem de programação JavaScript. Eles permitem realizar operações de comparação e combinação de valores booleanos, ou seja, valores que podem ser verdadeiros (true) ou falsos (false). EXEMPLOS:
+
+1. Operador AND (&&):
+Este operador retorna verdadeiro se ambos os operandos forem verdadeiros. Caso contrário, ele retorna falso. Por exemplo, se tivermos duas expressões, A e B, A && B será verdadeiro somente se ambas as expressões forem verdadeira
+
+2. Operador OR (||):
+Este operador retorna verdadeiro se pelo menos um dos operandos for verdadeiro. Se ambos os operandos forem falsos, então o resultado será falso. Por exemplo, se tivermos duas expressões, A e B, A || B será verdadeiro se pelo menos uma das expressões for verdadeira.
+
+3. Operador NOT (!):
+Este operador inverte o valor de um operando booleano. Se um operando for verdadeiro, o operador NOT o tornará falso e vice-versa. Por exemplo, se tivermos uma expressão A, !A será verdadeiro se A for falso.
+
+Principais Operadores Lógicos em JavaScript:
+Operador AND (&&):
+O operador AND é usado para realizar duas ou mais verificações simultâneas.
+Se todas as verificações forem verdadeiras, o resultado será verdadeiro. Caso contrário, será falso.
+Exemplo: if (idade >= 18 && possuiCarteiraDeMotorista === true) {}
+
+Operador OR (||):
+O operador OR é usado para realizar uma escolha entre duas ou mais condições.
+Se pelo menos uma das condições for verdadeira, o resultado será verdadeiro. Somente se todas as condições forem falsas, o resultado será falso.
+Exemplo: if (tipo === “admin” || tipo === “superadmin”) {}
+
+Operador NOT (!):
+O operador NOT é usado para inverter o valor booleano de uma expressão.
+Se a expressão for verdadeira, o resultado será falso. Se a expressão for falsa, o resultado será verdadeiro.
+Exemplo: if (!isLoggedIn) {}
 
 
 

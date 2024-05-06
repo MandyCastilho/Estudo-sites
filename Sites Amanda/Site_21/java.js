@@ -1,9 +1,14 @@
 //DECLARAÇÃO DE VARIAVEIS
-var a,b,c;
+var nome, sobrenome, nome_completo, idade, soma;
 
 //ATRIBUIÇÃO DOS VALORES
-a=2;
-b=3;
-c=a+b;
+nome = "Amanda";
+sobrenome = "Ramos Castillho";
+idade = 10;
+nome_completo = nome +" "+ sobrenome;
 
-alert(c);
+soma = idade + 10
+
+pessoa = nome +" "+ sobrenome + soma;
+
+document.getElementById("texto").innerHTML = pessoa;
